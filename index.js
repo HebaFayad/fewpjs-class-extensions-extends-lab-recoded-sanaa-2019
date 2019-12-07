@@ -58,10 +58,9 @@ const element = this.array[index];
             
 if (this.array[0] !== element) {
                 check =false;
-                return check;
             }
             
         }
-        
+        return check;
 }
 }
