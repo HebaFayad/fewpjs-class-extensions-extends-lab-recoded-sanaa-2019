@@ -53,15 +53,15 @@ class Square extends Polygon{
   get isValid(){
 
 let check =true;
-        for (let index = 0; index < this.array.length; index++) {
-            const element = this.array[index];
+for (let index = 0; index < this.array.length; index++) {
+const element = this.array[index];
             
-            if (this.array[0] !== element) {
-                //console.log(false);
+if (this.array[0] !== element) {
                 check =false;
+                return check;
             }
             
         }
-        return check;
+        
 }
 }
